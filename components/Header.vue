@@ -25,6 +25,7 @@
 <style lang="css" scoped>
   .header.show{
     opacity: 1;
+    visibility: visible;
     z-index: 1000;
     top: 0;
   }
@@ -39,6 +40,7 @@
     margin: 0;
     transition: 1s all ease-in-out;
     z-index: 1000;
+    visibility: hidden;
   }
   .header-menu{
     padding: 0;

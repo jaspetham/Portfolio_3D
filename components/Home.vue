@@ -17,7 +17,6 @@
 <style lang="css" scoped>
   .home{
     overflow: hidden;
-    height: 100%;
     padding-bottom: 0;
     pointer-events: none;
   }

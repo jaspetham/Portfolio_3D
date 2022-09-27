@@ -49,7 +49,7 @@
     position: relative;
     white-space: nowrap;
     pointer-events: none;
-    top: 30vh;
+    top: 32vh;
     margin: 0 auto;
     color: rgba(255,255,255,.5);
     text-transform: uppercase;

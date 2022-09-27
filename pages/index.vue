@@ -17,9 +17,15 @@ import Home from '../components/Home.vue';
 import Footer from '../components/Footer.vue';
 import Header from '../components/Header.vue';
 import MobileMenu from '../components/MobileMenu.vue';
-  export default {
-    name: "IndexPage",
-    components: { Canvas, Home, Footer, Header, MobileMenu },
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+export default {
+  name: "IndexPage",
+  components: { Canvas, Home, Footer, Header, MobileMenu },
+  mounted() {
+    AOS.init({ })
+  }
 }
 </script>
 <style lang="css" scoped>
@@ -51,6 +57,7 @@ import MobileMenu from '../components/MobileMenu.vue';
   }
   .page {
     width: 100vw;
+    height:100%;
     position: absolute;
     transform: translate3d(0,20%,0);
     top: 0px;

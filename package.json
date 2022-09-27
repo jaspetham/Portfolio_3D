@@ -9,6 +9,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "core-js": "^3.19.3",
     "dat.gui": "^0.7.9",
     "gsap": "^3.11.1",

@@ -1,24 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&family=Rubik:wght@300;400&display=swap');
 :root{
-  /* --hsl-main: 40,
-    19%,
-    85%
-    ;
-  --clr-main: #e0dbd1; */
-  --hsl-main: 43,
-    19%,
-    60%
-    ;
+  --hsl-main: 43, 19%, 60%;
   --clr-main: #aca186;
-  --ff-primary:'Rubik',
-    sans-serif;
+  --ff-primary:'Rubik', sans-serif;
+  --ff-secondary:'Noto Sans Mono', monospace;
+  --box-shadow:11, 86, 199,.5;
 }
 body {
   overscroll-behavior: none;
   -webkit-font-smoothing: antialiased;
   color:hsla(var(--clr-main), 1);
   font-family: var(--ff-primary);
-  overflow:hidden;
+  overflow-x:hidden;
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 
 * {
@@ -44,3 +40,42 @@ canvas {
   display: block;
 }
 
+.list {
+  margin-top: 45vh;
+  margin-left: 2.5vw;
+  width: 95vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.list-item {
+  -webkit-transform: translateZ(0);
+  float: left;
+  margin: 2.5vw;
+  position: relative;
+  width: 42.5vw;
+  cursor: pointer;
+  height: 22vw;
+}
+
+.list-item img {
+  width: 42.5vw;
+  object-fit: cover;
+  height: 22vw;
+  transition: .5s opacity;
+  opacity: .7;
+  -webkit-transform: translateZ(0);
+}
+.list-item img{
+  opacity: .7;
+}
+@media only screen and (max-width: 801px) {
+  .list{
+    grid-template-columns: 1fr;
+    margin-top: 25vh;
+    margin-left: 5vw;
+  }
+  .list-item {
+    width: 85vw;
+    height: 44vw;
+  }
+}
