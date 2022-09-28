@@ -91,22 +91,26 @@
               bar.classList.remove('hide');
             })
             document.querySelectorAll('.page').forEach((page) =>{
-              page.classList.add('hide');
-              page.classList.remove('show');
+              if(page.getAttribute('id') != 'home'){
+                page.classList.remove('show');
+              }
+              setTimeout(()=>{
+                page.classList.add('hide');
+                document.getElementById(target).classList.remove('hide');
+                setTimeout(()=>{
+                  document.getElementById(target).classList.add('show');
+
+                  gsap.to('.footer-menu',{
+                    opacity:1,
+                    duration:0.5,
+                    ease:'expo',
+                  })
+                },250)
+              },500)
             })
 
-            document.getElementById(target).classList.remove('hide');
-
-            gsap.to('.footer-menu',{
-              opacity:1,
-              duration:0.5,
-              ease:'expo',
-            })
-
-            setTimeout(()=>{
-              document.getElementById(target).classList.add('show');
-            },500)
             this.isOpen = true;
+
           }else if(target != undefined){
             // black bar
             document.querySelectorAll('.bar').forEach((bar) =>{
@@ -114,9 +118,7 @@
             })
             // home
             document.getElementById('home').classList.remove('show');
-            setTimeout(()=>{
-              document.getElementById('home').classList.add('hide');
-            },500)
+            document.getElementById('home').classList.add('hide');
             // header
             document.getElementById('header').classList.add('show');
 
@@ -128,10 +130,16 @@
             })
 
             // content
-            document.getElementById(target).classList.remove('hide');
-            setTimeout(()=>{
-              document.getElementById(target).classList.add('show');
-            },500)
+            document.querySelectorAll('.page').forEach((page)=>{
+              page.classList.remove('show');
+              setTimeout(()=>{
+                page.classList.add('hide');
+                document.getElementById(target).classList.remove('hide');
+                setTimeout(()=>{
+                  document.getElementById(target).classList.add('show');
+                },100)
+              },1000)
+            })
             this.isOpen = false;
           }
 

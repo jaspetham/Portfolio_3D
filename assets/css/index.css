@@ -47,6 +47,11 @@ canvas {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.list.list-content{
+  grid-template-columns: 1fr;
+  font-family: var(--ff-secondary);
+  color: var(--clr-main);
+}
 .list-item {
   -webkit-transform: translateZ(0);
   float: left;
@@ -67,6 +72,10 @@ canvas {
 }
 .list-item img{
   opacity: .7;
+}
+.divider{
+  margin-top: 10vh;
+  margin-bottom: 5vh;
 }
 @media only screen and (max-width: 801px) {
   .list{

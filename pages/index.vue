@@ -4,6 +4,7 @@
     <Canvas/>
     <Home/>
     <Work/>
+    <About/>
     <MobileMenu/>
     <Header/>
     <Footer/>
@@ -19,10 +20,11 @@ import Header from '../components/Header.vue';
 import MobileMenu from '../components/MobileMenu.vue';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import About from '../components/About.vue';
 
 export default {
   name: "IndexPage",
-  components: { Canvas, Home, Footer, Header, MobileMenu },
+  components: { Canvas, Home, Footer, Header, MobileMenu, About },
   mounted() {
     AOS.init({ })
   }

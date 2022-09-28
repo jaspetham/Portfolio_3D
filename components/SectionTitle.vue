@@ -77,7 +77,7 @@
   }
   @media only screen and (max-width: 801px){
     .page-title {
-      font-size: 10vh;
+      font-size: 8vh;
     }
     .page-subtitle {
       top: 18vh;
