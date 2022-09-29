@@ -5,7 +5,6 @@
       <li class="menu-item menu-work" data-link="work">work</li>
       <li class="menu-item menu-about" data-link="about">about</li>
       <li class="menu-item menu-history" data-link="history">history</li>
-      <li class="menu-item menu-education" data-link="education">education</li>
     </ul>
 	</div>
 </template>

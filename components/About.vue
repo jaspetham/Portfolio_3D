@@ -66,10 +66,10 @@ import SectionTitle from './SectionTitle.vue';
 
   @media only screen and (max-width: 801px){
     .info .bio {
-      font-size: 2vh;
+      font-size: 2.5vh;
     }
     .skills-item{
-      font-size:1.5vh;
+      font-size:2vh;
     }
     .divider{
       margin-top:5vh;

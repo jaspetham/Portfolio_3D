@@ -33,6 +33,7 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/google-fonts',
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/fontawesome'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -52,6 +53,12 @@ export default {
           use: ['raw-loader'],
         })
       }
+    }
+  },
+
+  fontawesome: {
+    icons:{
+      solid:true,
     }
   }
 }

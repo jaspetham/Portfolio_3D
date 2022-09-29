@@ -5,6 +5,7 @@
     <Home/>
     <Work/>
     <About/>
+    <History/>
     <MobileMenu/>
     <Header/>
     <Footer/>
@@ -21,10 +22,11 @@ import MobileMenu from '../components/MobileMenu.vue';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import About from '../components/About.vue';
+import History from '../components/History.vue';
 
 export default {
   name: "IndexPage",
-  components: { Canvas, Home, Footer, Header, MobileMenu, About },
+  components: { Canvas, Home, Footer, Header, MobileMenu, About, History },
   mounted() {
     AOS.init({ })
   }
