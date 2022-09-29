@@ -10,9 +10,6 @@
         <li @click="addHashToLocation('history')" class="menu-item menu-history" data-link="history">
           history
         </li>
-        <li @click="addHashToLocation('education')" class="menu-item menu-education" data-link="education">
-          education
-        </li>
       </ul>
 	</div>
 </template>
