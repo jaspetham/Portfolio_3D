@@ -18,8 +18,9 @@
                   <div class="content">
                     <div class="year">{{graduation.year}}</div>
                     <h1 class="info-title">
-                      {{graduation.type}}  <span class="info-subtitle">{{graduation.school}}</span>
+                      {{graduation.type}}
                     </h1>
+                    <span class="info-subtitle">{{graduation.school}}</span>
                     <p class="info-text">{{graduation.info}}</p>
                   </div>
                 </div>
@@ -29,7 +30,7 @@
           <div class="info-content">
             <h1 class="info-title mb-5">Work Experience</h1>
             <ul class="list-unstyled">
-              <li v-for="(graduation,index) in graduations" :key="index">
+              <li v-for="(work,index) in works" :key="index">
                 <div class="flex gap-4">
                   <div class="relative content-icon">
                     <div class="icon">
@@ -37,11 +38,12 @@
                     </div>
                   </div>
                   <div class="content">
-                    <div class="year">{{graduation.year}}</div>
+                    <div class="year">{{work.year}}</div>
                     <h1 class="info-title">
-                      {{graduation.type}}  <span class="info-subtitle">{{graduation.school}}</span>
+                      {{work.type}}
                     </h1>
-                    <p class="info-text">{{graduation.info}}</p>
+                    <span class="info-subtitle">{{work.school}}</span>
+                    <p class="info-text">{{work.info}}</p>
                   </div>
                 </div>
               </li>
@@ -65,18 +67,44 @@
       return{
         graduations:[
           {
-            year:'2017 - 2019',
+            year:'July 2017 - August 2019',
             type: 'BACHELOR DEGREE',
-            school: 'COVENTRY UNIVERSITY',
+            school: 'COVENTRY UNIVERSITY, Singapore',
             info: 'Bachelor Of Science in Computer Science, Graduated with Upper Second Class Division'
           },
           {
-            year:'2016 - 2017',
+            year:'April 2016 - April 2017',
             type: 'Diploma',
-            school: 'PSB Academy',
+            school: 'PSB Academy, Singapore',
             info: 'Diploma in Infocomm &amp; Technology, Pass with merit'
           }
-        ]
+        ],
+        works:[
+          {
+            year:'June 2022 - July 2022',
+            type: 'Front End Developer(Contract Staff)',
+            school: 'My AOne Learning Sdn. Bhd, Malaysia',
+            info: 'Responsible for the conversion of a design element into a working website, Accurately translate user and business needs into functional frontend code & develop and maintain web-based frontend application in Javascript/VueJS'
+          },
+          {
+            year:'June 2021 - June 2022',
+            type: 'Web Developer',
+            school: 'Unicom Interactive Digital, Malaysia',
+            info: 'In charge of the frontend projects, assigned to create multiple responsive websites based on the design given from scratch to functional websites. Use Laravel framework as based and HTML, CSS, Bootstrap for frontend.'
+          },
+          {
+            year:'November 2020 - June 2021',
+            type: 'Junior Web Developer',
+            school: 'Coreka Co, Malaysia',
+            info: 'Responsible for creating the front end of several real life website. The website is built in opencart platform which is PHP based. I also have the responsibility of doing the backend of the project including using ajax,jquery validation and getting/saving data into phpmyadmin sql.'
+          },
+          {
+            year:'November 2019 - June 2021',
+            type: 'Apprentice Web Developer',
+            school: 'Phisoft, Malaysia',
+            info: 'Have a hands on creating a website with microweber platform and uses bootstrap 4.'
+          }
+        ],
       }
     }
   }
@@ -104,18 +132,6 @@
     font-size: 1.2vw;
     opacity: .8;
     position: relative;
-    padding-left: 2rem;
-  }
-  .info-content .info-subtitle::before{
-    position: absolute;
-    content: '';
-    width: 15px;
-    height: 3px;
-    background-color: #fff;
-    left: 6px;
-    top: 50%;
-    opacity: .8;
-    transform: translateY(-50%);
   }
   .info-content .info-text{
     font-size:1.2vw;
@@ -161,7 +177,6 @@
     }
     .info-content .info-subtitle{
       font-size: 2vh;
-      padding-left:0;
       display:block;
     }
     .info-content .info-subtitle::before{

@@ -77,10 +77,10 @@
   }
   @media only screen and (max-width: 801px){
     .page-title {
-      font-size: 8vh;
+      font-size: 7vh;
     }
     .page-subtitle {
-      top: 18vh;
+      top: 17vh;
       font-size: 1vh;
       letter-spacing: .5vh;
       column-gap: 1rem;

@@ -6,15 +6,15 @@
       <div class="info">
         <div class="bio">
           <p>
-            Hello, I'm Jasper Tham, a front end developer. I studied my diploma & degree in Singapore at June of 2017 and finished my studies in August of 2021.
+            Hello, I'm Jasper Tham, a front end developer. I am born and raised in Sabah, been there until i went overseas to Singapore and studied my diploma & degree in Singapore at June of 2017 and finished my studies in August of 2021.
+          </p>
+          <p class="mt-3 md:mt-6">
             During the studies, most of the projects and course is on mobile application. I do not quite enjoy making mobile application and felt lost.
             But then one day almost at the end of the studies, one of my friend introduced me to website and found out that i enjoy making the website and since then
             I never stop working on improving myself.
           </p>
-          <div class="divider"></div>
-          <p>Below is my current skillset.</p>
-          <div class="divider"></div>
-          <div class="grid grid-cols-2 gap-3">
+          <p class="mt-3 md:mt-6">Below is my current skillset.</p>
+          <div class="grid grid-cols-2 gap-3 mt-5 md:mt-10">
             <div>
               <p>Frontend Skills</p>
               <ul class="mt-5 list-disc list-inside">
