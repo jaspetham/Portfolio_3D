@@ -81,6 +81,25 @@
         ],
         works:[
           {
+            year:'Oct 2023 - Now',
+            type: 'Senior Frontend Dev',
+            school: 'Oppstar Technology Sdn.Bhd, Malaysia',
+            info: `
+              Spearheaded the development of a new product from inception, collaborating closely with upper management to create innovative UI designs and functionalities.
+              Conducted extensive research to inform decision-making and drive the implementation of essential new features.
+              Utilized Solid.js and TypeScript to build robust and efficient solutions, ensuring high performance and scalability.
+              Mentored and coached junior developers within the team, fostering a culture of continuous learning and improvement.
+              Played a pivotal role in establishing coding best practices and promoting a flexible mindset in code structuring.
+              Demonstrated leadership within the team, guiding project development with expertise and adaptability
+            `
+          },
+          {
+            year:'Jan 2023 - Sept 2023',
+            type: 'Frontend Dev, Digital Dev Ops',
+            school: 'Maybank, Malaysia',
+            info: 'I prioritize maintaining its excellent condition, satisfying user and business requirements, and creating a dynamic and easily updatable website. I work with the Scrum method and thrive in the fast-paced environment, constantly learning new skills. Additionally, I contribute to production migration, conduct code reviews, and fix bugs during monthly releases of the M2U website.'
+          },
+          {
             year:'June 2022 - July 2022',
             type: 'Front End Developer(Contract Staff)',
             school: 'My AOne Learning Sdn. Bhd, Malaysia',

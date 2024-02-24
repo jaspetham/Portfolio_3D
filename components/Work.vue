@@ -40,6 +40,9 @@ import project9 from '~/assets/img/work9-min.jpg';
 import project10 from '~/assets/img/work10-min.jpg';
 import project11 from '~/assets/img/work11-min.jpg';
 import project12 from '~/assets/img/work12-min.jpg';
+import projectBiteFamily from '~/assets/img/bite-family-min.png';
+import projectZestProduction from '~/assets/img/zest-production-min.png';
+import projectOrganicBall from '~/assets/img/organic-ball-min.png';
 
   export default {
   components: { SectionTitle },
@@ -47,85 +50,91 @@ import project12 from '~/assets/img/work12-min.jpg';
     return{
       projects:[
         {
-          id:1,
           url:'https://jaspetham.github.io/Super-Nova/',
           type:'Personal Project',
           name:'NuxtJS, Super Nova',
           imgSrc:project1
         },
         {
-          id:2,
-          url:'https://sage-concha-addcb8.netlify.app/',
+          url:'https://jasper-keynabalu.netlify.app',
           type:'Personal Project | Facebook Group',
           name:'NuxtJS, Keyboard Anonymous',
           imgSrc:project2
         },
         {
-          id:3,
           url:'https://jaspetham.github.io/space-solution/',
           type:'Personal Project | Frontend Challenge',
           name:'React, Space Solution',
           imgSrc:project3
         },
         {
-          id:4,
-          url:'https://dreamy-shockley-39999f.netlify.app/',
+          url:'https://jasper-zest-production.netlify.app/',
+          type:'Client Project |',
+          name:'React, Zest Production',
+          imgSrc:projectZestProduction
+        },
+        {
+          url:'https://jasper-bite-family.netlify.app/',
+          type:'Client Project | On Hold',
+          name:'React, Bite Family',
+          imgSrc:projectBiteFamily
+        },
+        {
+          url:'https://jasper-threejs-portfolio-v1.netlify.app/',
           type:'Personal Project | Portfolio',
           name:'ThreeJS, Portfolio Test',
           imgSrc:project12
         },
         {
-          id:5,
-          url:'https://zealous-chandrasekhar-68201e.netlify.app/',
+          url:'https://jasper-threejs-organic-ball.netlify.app/',
+          type:'Personal Project | 3D Expriments',
+          name:'ThreeJS, Organic Ball',
+          imgSrc:projectOrganicBall
+        },
+        {
+          url:'https://jasper-threejs-galaxy-generator.netlify.app/',
           type:'Personal Project | 3D Expriments',
           name:'ThreeJS, Galaxy Demo',
           imgSrc:project10
         },
         {
-          id:6,
           url:'https://jaspetham.github.io/Wave-Demo/',
           type:'Personal Project | 3D Expriments',
           name:'ThreeJS, Wave Demo',
           imgSrc:project11
         },
         {
-          id:7,
-          url:'https://modest-austin-291c49.netlify.app/',
+          url:'https://jasper-threejs-video-explode.netlify.app',
           type:'Personal Project | 3D Expriments',
           name:'ThreeJS, Video Explode Particle',
           imgSrc:project8
         },
         {
-          id:8,
-          url:'https://stoic-lewin-2fe501.netlify.app/',
+          url:'https://jasper-threejs-noise-beauty.netlify.app',
           type:'Personal Project | 3D Expriments',
           name:'ThreeJS, Noise Beauty',
           imgSrc:project6
         },
         {
-          id:9,
           url:'https://jaspetham.github.io/Icosahedron/',
           type:'Personal Project | 3D Expriments',
           name:'ThreeJS, Icosahedron',
           imgSrc:project7
         },
         {
-          id:10,
-          url:'https://goofy-bell-31e4b6.netlify.app/',
+          url:'https://jasper-threejs-particles-map.netlify.app',
           type:'Personal Project | 3D Expriments',
           name:'ThreeJS, Particles Map',
           imgSrc:project4
         },
         {
-          id:11,
-          url:'https://zealous-chandrasekhar-68201e.netlify.app/',
+          url:'https://jasper-threejs-explode-particle.netlify.app/',
           type:'Personal Project | 3D Expriments',
           name:'ThreeJS, Explode Particle',
           imgSrc:project9
         },
         {
-          id:12,
-          url:'https://boring-elion-6f5060.netlify.app/',
+          url:'https://jasper-threejs-pixel-distortion.netlify.app',
           type:'Personal Project | 3D Expriments',
           name:'ThreeJS, Pixel Distortions',
           imgSrc:project5

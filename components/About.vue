@@ -6,12 +6,11 @@
       <div class="info">
         <div class="bio">
           <p>
-            Hello, I'm Jasper Tham, a front end developer. I am born and raised in Sabah, been there until i went overseas to Singapore and studied my diploma & degree in Singapore at June of 2017 and finished my studies in August of 2021.
-          </p>
-          <p class="mt-3 md:mt-6">
-            During the studies, most of the projects and course is on mobile application. I do not quite enjoy making mobile application and felt lost.
-            But then one day almost at the end of the studies, one of my friend introduced me to website and found out that i enjoy making the website and since then
-            I never stop working on improving myself.
+            Hello, I'm Jasper Tham, a senior front end developer.
+            Ambitious Front End Developer with over 4 years of experience, with a strong drive for self-improvement
+and a clear goal of transitioning into a Full Stack role. Dedicated to continuous learning, with a focus on
+mastering Three.js for 3D web development. Passionate about achieving excellence and eager to contribute
+to innovative projects as a versatile Full Stack Developer.
           </p>
           <p class="mt-3 md:mt-6">Below is my current skillset.</p>
           <div class="grid grid-cols-2 gap-3 mt-5 md:mt-10">
@@ -21,17 +20,16 @@
                 <li class="skills-item">VueJS/NuxtJS</li>
                 <li class="skills-item">Bootstrap</li>
                 <li class="skills-item">Tailwind CSS</li>
-                <li class="skills-item">ReactJS</li>
+                <li class="skills-item">ReactJS & TS</li>
               </ul>
             </div>
             <div>
               <p>Others Skills</p>
               <ul class="mt-5 list-disc list-inside">
                 <li class="skills-item">ThreeJS (3D)</li>
+                <li class="skills-item">Git</li>
                 <li class="skills-item">Javascript</li>
-                <li class="skills-item">Jquery</li>
                 <li class="skills-item">Postman API</li>
-                <li class="skills-item">Basic SQL</li>
               </ul>
             </div>
           </div>
