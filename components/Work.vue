@@ -43,12 +43,19 @@ import project12 from '~/assets/img/work12-min.jpg';
 import projectBiteFamily from '~/assets/img/bite-family-min.png';
 import projectZestProduction from '~/assets/img/zest-production-min.png';
 import projectOrganicBall from '~/assets/img/organic-ball-min.png';
+import appleClone from '~/assets/img/apple-clone.png';
 
   export default {
   components: { SectionTitle },
   data(){
     return{
       projects:[
+        {
+          url:'https://jasper-apple-clone.netlify.app/',
+          type:'Personal Project |Apple Clone',
+          name:'VueJS, Apple Clone',
+          imgSrc:appleClone
+        },
         {
           url:'https://jaspetham.github.io/Super-Nova/',
           type:'Personal Project',
