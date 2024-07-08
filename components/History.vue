@@ -52,7 +52,7 @@
         </div>
         <div class="divider"></div>
         <div class="flex justify-center">
-          <a class="btn" href="~/assets/2024_CV" download>
+          <a class="btn" href="~/assets/2024_CV.pdf" download>
             Download CV
           </a>
         </div>
