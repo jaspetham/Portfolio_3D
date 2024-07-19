@@ -10,6 +10,11 @@
         <li @click="addHashToLocation('history')" class="menu-item menu-history" data-link="history">
           history
         </li>
+        <li class="menu-item menu-download">
+          <a class="btn" href="/2024_CV.pdf" download>
+            Download CV
+          </a>
+        </li>
       </ul>
 	</div>
 </template>
@@ -66,6 +71,9 @@
     padding-right: 4vw;
     padding-left: 4vw;
     user-select: none;
+  }
+  .menu-item.menu-download{
+    opacity:1;
   }
   @media only screen and (max-width: 801px){
     .footer-menu {
