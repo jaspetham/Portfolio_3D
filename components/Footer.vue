@@ -84,5 +84,11 @@
       padding-left: 3vw;
       padding-right: 3vw;
     }
+    .footer-menu .menu-item:last-child{
+        padding:0;
+    }
+    .footer-menu .menu-item .btn{
+        padding:.75rem 1rem;
+    }
   }
 </style>
